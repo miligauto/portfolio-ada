@@ -1,32 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-.menu-de-opciones {
+body {
+    font-family: "montserrat", sans-serif;
+}
+
+.menu {
     width: 100%;
     max-width: 1500px;
+    display: flex;
     justify-content: space-around;
-    
+    padding: 15px;
 }
 
 .nav-menu {
     display: flex;
     justify-content: flex-end;
-
+    align-items: center;
+    width: 100%;
+    height: 55px;
 }
 
 .nav-menu1 {
     display: flex;
-    margin: 0;
-    padding: 0;
     list-style: none;
     font-style: normal;
-    font-family: monospace;
-    font-size: 30px;    
+    font-family: "montserrat", sans-serif;
+    font-size: 20px; 
+    font-weight: 200px;   
 }
+
 
 .nav-item {
     margin: 0 10px;
@@ -37,21 +47,65 @@
     padding: 0 10px;
     border-radius: 100px;
     text-decoration: none;
-    color: black;
+    color: rgb(87, 86, 86);
 }
 
-.nav-link-seleccion {
-    padding: 0 30px;
+.nav-link:hover {
+    color: blueviolet;
+}
+
+.button {
+    padding: 10px 40px;
     color: white;
     background-color: blueviolet;    
     line-height: 2.5;
+    border: 1px solid;
     border-radius: 100px;
     text-decoration: none;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px; 
+    font-weight: 200px;   
+    text-align: center;
+    width: 200px;
+    height: 55px;
+    justify-content: center;
 }
 
-.primer-seccion {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.button:hover {
+    background-color: rgb(150, 106, 192);
+    cursor: pointer;
+}
+
+.section-principal {
+   margin: 0 auto;
+   width: 500px; 
+   height: 500px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-flow: wrap;
+   margin: 250px;
+}
+
+.saludo {
+    font-size: 35px;
+}
+
+.nombre {
+    font-size: 55px;
+    color: blueviolet;
+    margin-block-start: 10px;
+    margin-inline-end: 10px;
+}
+
+.descripcion {
+    font-size: 20px;
+    color: rgb(87, 86, 86);
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+}
+
+.proyecto {
+    margin-top: 60px;
 }
