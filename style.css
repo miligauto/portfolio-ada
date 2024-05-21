@@ -249,10 +249,19 @@ body {
 }
 
 .conteiner-proyectos {
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
+}
+
+.box-proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .mis-proyectos {
@@ -261,7 +270,7 @@ body {
     justify-content: space-around;
     text-align: center;
     font-weight: 900;
-    padding: 50px;
+    padding: 80px;
     font-size: 45px;
 }
 
@@ -312,3 +321,74 @@ body {
     max-height: 250px;
 }
 
+.container-contacto {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-formulario-contacto {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 200px;
+    border: 1px solid rgb(209, 202, 202);
+    border-radius: 15px;
+    padding: 80px 60px;
+}
+
+.box-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+.contactame {
+    font-family: "montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.descripcion-contacto {
+    font-family: "montserrat", sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.box-contact {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.logo-redes:hover {
+    cursor: pointer;
+    border: 10px;
+}
+
+.logo-redes { 
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.logo-redes img {
+    width: 25px;
+}
+.logo-redes a {
+    margin: 10px;
+    text-align: center;
+    margin-left: 20px;
+}
