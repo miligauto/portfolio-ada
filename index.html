@@ -10,6 +10,8 @@
   
 </head>
 
+<!--Header-->
+
 <body>
     <header>
         <div class="menu">
@@ -34,16 +36,21 @@
 
 <main>
 
+
+<!--Sección principal-->    
     <section class="section-principal">
         <div class="primer-seccion">
-                <p class="saludo">¡Hola! Soy</p>
-                <h1 class="nombre">Milagros Gauto</h1>
-                <p class="descripcion">Desarrolladora, docente de nivel inicial y amante de los gatitos</p>
-                <a href="proyecto" class="button proyecto">LO QUE HAGO</a>   
+            <a id="hola" href="#"></a>    
+            <p class="saludo">¡Hola! Soy</p>
+            <h1 class="nombre">Milagros Gauto</h1>
+            <p class="descripcion">Desarrolladora, docente de nivel inicial y amante de los gatitos</p>
+            <a href="#proyectos" class="button proyecto">LO QUE HAGO</a>   
         </div>
             <img class="imagen" src="imagenes/undraw_Female_avatar_efig.png" alt="foto-presentacion">
     </section>
 
+    
+<!--Mis conocimientos-->    
     <section class="conteiner-box">
         <div class="box-conocimientos">
             <a id="conocimientos" href="#"></a>
@@ -80,12 +87,18 @@
         </div>
     </section>
 
+
+<!--Frase-->    
+
     <section>
         <div class="seccion-frase">
             <p class="frase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem placeat perspiciatis eum nihil doloribus beatae deleniti eveniet laborum pariatur? Enim?</p>
             <h2 class="autor">Autor a definir</h2>
         </div>
     </section>
+
+
+<!--Mis proyectos-->
 
     <section class="conteiner-proyectos">
         <div class="box-proyectos">
@@ -126,6 +139,8 @@
         </div>
     </section>
 
+
+<!--Formulario contacto-->    
     <section class="container-contacto">
         <a id="contacto" href="#"></a>
         <div class="container-formulario-contacto">
@@ -133,41 +148,118 @@
                 <h2 class="contactame">Contactame</h2>
                 <p class="descripcion-contacto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius itaque accusamus adipisci delectus autem debitis saepe mollitia amet beatae eligendi.</p>
                 <div class="logo-redes">
+                    <a href="https://www.instagram.com/miligaut/?hl=es" target="_blanck">
                     <img src="imagenes/icon-instagram.png" alt="logo-instagram">
-                    <a href="https://www.instagram.com/miligaut/?hl=es" target="_blanck">@miligaut</a>
+                    <caption class="redes"> @miligaut </caption>
+                    </a>
                 </div>
                 <div class="logo-redes">
+                    <a href="https://github.com/miligauto" target="_blanck">
                     <img src="imagenes/icon-github.png" alt="logo-github">
-                    <a href="https://github.com/miligauto" target="_blanck">miligauto</a>
+                    <caption class="redes"> miligauto </caption>
+                    </a>
                 </div>
                 <div class="logo-redes">
+                    <a href="https://www.linkedin.com/in/milagros-gauto-753768303/" target="_blank">
                     <img src="imagenes/icon-linkedin.png" alt="logo-linkedin">
-                    <a href="https://www.linkedin.com/in/milagros-gauto-753768303/" target="_blank">milagrosgauto</a>
+                    <caption class="redes"> milagrosgauto </caption>
+                    </a>
                 </div>
                 <div class="logo-redes"> 
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
                     <img src="imagenes/icon-gmail.png" alt="logo-gmail">
-                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">gauto.m95@gmail.com</a>
+                    <caption class="redes"> gauto.m95@gmail.com </caption>
+                    </a>
                 </div>
             </div>    
         
-        
-
-    <form>
-        <legend>Escribime</legend>
+    <div class="form primer-formulario">
+        <h2 class="escribime">Escribime</h2>
         <div>
-            <label for="name">
-                Nombre
-                <input type="text" name="name" required />
-
+            <form class="form formulario-nombre">
+            <label for="nombre"> 
+                Nombre 
+            <input class="input-" type="text" name="name" id="name" placeholder="Ej: Milagros">
             </label>
-
+            <label for="apellido">
+                Apellido
+                <input class="input-" type="text" name="apellido" id="apellido" placeholder="Ej: Gauto">
+            </label>
         </div>
+        <div class=" form formulario-email">
+            <label for="email">
+                E-mail
+                <input class="input-" type="email" name="email" id="email" placeholder="Ej: gauto.m95@gmail.com">
+            </label>
         </div>
+        <div class="form formulario-mensaje">
+            <label for="mensaje">
+                <p>Mensaje</p>
+                <textarea class="textarea" name="mensaje" id="mensaje" maxlength="200" cols="30" rows="10" placeholder="        Escriba su mensaje aquí">
+            </textarea>
+            <button class="boton-enviar" type="enviar"> Enviar </button>
+            </label>
+        </div>
+    </div>    
     </form>    
     </section>
-
-
-
 </main>
+
+
+<!--Footer-->
+
+<footer class="footer">
+    <div class="footer-lista">
+        <ul class="footer-final">
+            <li class="final-footer">
+                <a href="#hola"> HOLA </a>
+            </li>
+            <li class="final-footer">
+                <a href="#conocimientos"> CONOCIMIENTOS </a>
+            </li>
+            <li class="final-footer">
+                <a href="#proyectos"> PROYECTOS </a>
+            </li>
+            <li class="final-footer">
+                <a href="#contacto"> CONTACTO </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="segundo-footer">
+        <ul class="segundo-footer-lista">
+            <li class="segundo segundo-footer-iconos">
+                <a href="https://www.instagram.com/miligaut/?hl=es" target="_blanck">
+                <img src="imagenes/icon-instagram.png" alt="logo-instagram">
+                </a>
+            </li>
+            <li class="segundo segundo-footer-iconos">
+                <a href="https://github.com/miligauto" target="_blanck">
+                <img src="imagenes/icon-github.png" alt="logo-github">
+                </a>
+            </li>
+            <li class="segundo segundo-footer-iconos">
+                <a href="https://www.linkedin.com/in/milagros-gauto-753768303/" target="_blank">
+                <img src="imagenes/icon-linkedin.png" alt="logo-linkedin">
+                </a>
+            </li>
+            <li class="segundo segundo-footer-iconos">
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
+                <img src="imagenes/icon-gmail.png" alt="logo-gmail">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <p class="despedida">Hecho con <img src="imagenes/icon-corazon.png" alt="corazon"> por Mili </p>
+    </div>
+</footer>
+
 </body>
 </html>
+
+
+<!-- html {
+    scroll-behavior: smooth;
+  } */ --> 
