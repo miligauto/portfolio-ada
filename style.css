@@ -589,20 +589,5 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    .menu {
-        width: 100%;
-    }
-
-    .nav-menu {
-        width: 100%;
-    }
-
-    .container-box {
-        width: 100%;
-    }
-
-    .seccion-frase {
-        width: 100%;
-    }
 
 }
