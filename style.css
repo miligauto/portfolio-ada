@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+.html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -125,7 +129,6 @@ body {
 }
 
 .imagen {
-    display: flex;
     width: 400px;
 }
 
@@ -588,6 +591,41 @@ body {
     width: 18px;
 }
 
-@media screen and (max-width: 480px) {
+@media and (max-width: 768px) {
+    .section-principal {
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .container-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .seccion-frase {
+        width: 768px;
+    }
+
+    .container-contacto {
+        flex-direction: column;
+    }
+
+}
+
+@media and (max-width: 650px) {
+    .menu {
+        width: 400px;
+    }
+
+    .container-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container-contacto {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
